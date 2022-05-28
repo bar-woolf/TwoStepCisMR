@@ -1,0 +1,12 @@
+Package: TwoStepCisMR
+Title:Two-Step Cis MR: A novel method and R package for attenuating bias in cis-MR in the absence of uncorrelated variants.
+Version: 0.0.0.9000
+Authors@R:
+  person("Benjamin", "Woolf", , "benjamin.woolf@bristol.ac.uk", role = c("aut", "cre"),
+         comment = c(ORCID = "0000-0002-1505-2570"))
+Description: This function implements a simple adjsutment to the snp-outcome association to remove bias from cis-MR estimates in the absence of uncorrelated variants.
+License: use_cc0_license("Benjamin Woolf")
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Citaton: TBA
