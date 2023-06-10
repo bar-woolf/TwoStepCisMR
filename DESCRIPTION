@@ -1,5 +1,5 @@
 Package: TwoStepCisMR
-Title:Two-Step Cis MR: A novel method and R package for attenuating bias in cis-MR in the absence of uncorrelated variants.
+Title: Two-Step Cis MR: A novel method and R package for attenuating bias in cis-MR in the absence of uncorrelated variants.
 Version: 0.0.0.9000
 Authors@R:
   person("Benjamin", "Woolf", , "benjamin.woolf@bristol.ac.uk", role = c("aut", "cre"),
@@ -8,5 +8,5 @@ Description: This function implements a simple adjsutment to the snp-outcome ass
 License: use_cc0_license("Benjamin Woolf")
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
-Citaton: TBA
+RoxygenNote: 7.2.3
+Citaton: Woolf B, Zagkos L, Gill D. TwoStepCisMR: A Novel Method and R Package for Attenuating Bias in cis-Mendelian Randomization Analyses. Genes. 2022 Aug 26;13(9):1541.

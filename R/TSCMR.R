@@ -1,3 +1,5 @@
+#function
+
 #' @title Two-Step Cis MR: A novel method and R package for attenuating bias in cis-MR in the absence of uncorrelated variants
 #' @description This function implements a simple adjsutment to the snp-outcome association to remove bias from cis-MR estimates in the absence of uncorrelated variants.
 #' @param Bgc SNP-confounder associations.
