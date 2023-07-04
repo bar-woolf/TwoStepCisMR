@@ -47,8 +47,8 @@ cisLeave1out<-function(SNP,beta.exposure,se.exposure, beta.outcome,se.outcome,  
       for (j in 1:nrow(dat3)){
         dat4<-dat3[-j,]
         IVW<-IVWcorrel(method=method, betaYG=dat4$beta.outcome,      sebetaYG=dat4$se.outcome,      betaXG=dat4$beta.exposure,      sebetaXG=dat4$se.exposure,      rho=matrix[dat4$SNP,dat4$SNP]    )
-        dat2$LOO_beta[dat2$SNP==dat3$SNP[j]]<-IVW[2,1]
-        dat2$LOO_se[dat2$SNP==dat3$SNP[j]]<-IVW[2,2]
+        dat2$LOO_beta[dat2$SNP==dat3$SNP[j]]<-IVW[1]
+        dat2$LOO_se[dat2$SNP==dat3$SNP[j]]<-IVW[2]
 
       }}
     dat2$LOO_beta<-as.numeric(dat2$LOO_beta)
